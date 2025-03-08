@@ -5,8 +5,7 @@ metadata:
   namespace: minecraft
 spec:
   selector:
-    matchLabels:
-      app: minecraft
+    app.kubernetes.io/name: minecraft
   ports:
     - protocol: TCP
       port: 25565
