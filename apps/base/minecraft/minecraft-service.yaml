@@ -5,7 +5,8 @@ metadata:
   namespace: minecraft
 spec:
   selector:
-    run: minecraft
+    matchLabels:
+      app: minecraft
   ports:
     - protocol: TCP
       port: 25565
