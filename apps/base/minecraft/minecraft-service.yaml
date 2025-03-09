@@ -8,6 +8,5 @@ spec:
     app: minecraft
   type: NodePort
   ports:
-    - protocol: TCP
-      port: 25565
-      nodePort: 25565
+    - port: 25565
+      nodePort: 30565
